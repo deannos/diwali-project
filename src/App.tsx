@@ -282,9 +282,9 @@ function App() {
         ) : (
           <>
             <h1 className="text-4xl font-bold text-yellow-300 mb-4 drop-shadow-lg animate-pulse">
-              Find the special firecrackers with Diwali wishes!
+              {/* Find the special firecrackers with Diwali wishes! */}
             </h1>
-            <p className="text-xl text-orange-200 mt-4 animate-pulse">
+            <p className="text-4xl font-bold text-orange-200 mt-4 animate-pulse">
               Tap the firecrackers to reveal your Diwali fortune! 🎆
             </p>
           </>
