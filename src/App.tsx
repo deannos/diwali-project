@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
-const explosionSoundUrl = "./sounds/massive-explosion-3-397984.mp3";
-const fuseSoundUrl = "./sounds/sparkler_fuse_nmwav-14738.mp3";
+import explosionSoundUrl from "./sounds/massive-explosion-3-397984.mp3";
+import fuseSoundUrl from "./sounds/sparkler_fuse_nmwav-14738.mp3";
 
 interface Firecracker {
   id: number;
